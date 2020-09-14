@@ -1,0 +1,34 @@
+{
+  "name": "javascripttdd",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha 'src/test/*.js'"
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garora"
+  },
+  "keywords": [],
+  "author": "Gaurav Kumar Arora <g_arora@hotmail.com> (http://gaurav-arora.com/)",
+  "contributors": [
+    {
+      "name": "Gaurav Kumar Arora",
+      "email": "g_arora@hotmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://xyz.com"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "chai": "^4.2.0",
+    "coveralls": "^2.11.2",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1"
+  }
+}
