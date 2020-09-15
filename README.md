@@ -4,14 +4,15 @@ This repository contains Hands on Test Driven Development Katas - implemented us
 ## How to run the tests
 Download or Clone the the project, navigate to the project folder in your Node console, and run
 
-    `npm install
+    npm install
     npm test `
 
 ## Compile typescript files
 To get the advantage of `.ts` file to generate `.js` files, run the following command
-    `npm run compile`
-The above command will generate two files of extensions `.js` and `.js.map` in `out` folder
-If you're adding/creating new `.ts` file(s), make sure you've added an entry in `tsconfig.json` file before executing above command.
+
+    npm run compile
+
+The above command will generate two files of extensions `.js` and `.js.map` in `out` folder. If you're adding/creating new `.ts` file(s), make sure you've added an entry in `tsconfig.json` file before executing above command.
 
 ### How to contribute:
 Want to contribute? Make a pull request (PR) to [develop](https://github.com/garora/TDD-Katas-JavaScript/tree/dev) branch. Do not make any PR to Master branch.
