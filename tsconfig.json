@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "out"
+    },
+    "files": [
+        "typefiles/onetest.ts",
+        "typefiles/oddeven.ts"
+        
+    ]
+    // "include": ["typefiles/**/*"],
+    // "exclude": ["node_modules", "**/*.ts"]
+} 
